@@ -1,0 +1,62 @@
+body{
+	
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 1000% 1000%;
+	animation: gradient 15s ease infinite;
+}
+
+h1{
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 50px;
+	color: #562349;
+	margin-top: 30px;
+}
+
+h2{
+	font-family: 'Bubblegum Sans', cursive;
+	font-size: 30px;
+	color: #562349;
+}
+
+.i{
+	font-size: 20px;
+	font-family: 'Chelsea Market', cursive;
+	color: #45046a;
+}
+input{
+	outline: none;
+	border: none;
+  	background: transparent;
+  	border-bottom: 2px solid #45046a;
+  	margin-left: 5px
+}
+
+.button{
+	background: transparent; 
+ 	color: #45046a; 	
+  	outline: none;
+  	color: #562349;
+  	padding: 10px 24px;
+  	border-radius: 8px;
+  	text-align: center;
+  	border: 2px solid ;
+  	display: inline-block;
+  	font-family: 'Baloo Chettan 2', cursive;
+  	font-size: 16px;
+}
+
+img {
+  width: 600px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
